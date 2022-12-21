@@ -10,7 +10,7 @@ import Exercices from '../components/Exercices'
 const Home = () => {
   return (
    
-    <Box>Home IN 
+    <Box>
       <HeroBanner />
       <SearchExercices />
       <Exercices />
