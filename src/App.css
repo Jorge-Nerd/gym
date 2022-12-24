@@ -97,6 +97,16 @@ body {
     border: 1px solid #FF2625 !important;
   }
   
+  .btn-bodyPart:hover{
+    color: #FF2625;
+    font-weight: bold;
+  }
+
+  .btn-target:hover{
+    color: rgb(9, 255, 0);
+    font-weight: bold;
+  }
+
   .exercise-video {
     display: flex;
     flex-direction: column;
