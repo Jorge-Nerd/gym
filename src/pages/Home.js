@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import { Box } from "@mui/system";
+import { Box } from "@mui/material";
 import { Search } from "@mui/icons-material";
 
 import HeroBanner from "../components/HeroBanner";
@@ -20,7 +20,7 @@ const Home = () => {
       />
       <Exercices
         bodyPart={bodyPart}
-        setBodyPart={setBodyPart}
+        exercices={exercices}
         setExercices={setExercices}
       />
     </Box>
