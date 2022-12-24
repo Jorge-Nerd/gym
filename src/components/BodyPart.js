@@ -1,6 +1,6 @@
-import React from "react";
+import React,{useContext} from "react";
 import { Stack, Typography } from "@mui/material";
-import {scrollMenu, VisibilityContext} from 'react-horizontal-scrolling-menu'
+import {ScrollMenu, VisibilityContext} from 'react-horizontal-scrolling-menu'
 import Icon from "../assets/icons/gym.png";
 
 
@@ -10,6 +10,7 @@ const BodyPart = ({ item, setBodyPart, bodyPart }) => {
       type="button"
       alignItems="center"
       justifyContent="center"
+      className="bodyPart-card"
       sx={{
         borderTop: bodyPart === item ? "4px solid #ff2625" : "",
         background: "#fff",
@@ -22,7 +23,7 @@ const BodyPart = ({ item, setBodyPart, bodyPart }) => {
     >
       <img
         src={Icon}
-        alt="gym-Parts"
+        alt="dumbbell"
         styles={{ width: "40px", height: "40px" }}
       />
     </Stack>
