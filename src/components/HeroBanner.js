@@ -9,7 +9,7 @@ const HeroBanner = () => {
       sx={{
         mt: { lg: "212px", xs: "70px" },
         ml: { sm: "50px" },
-        position: "relative",
+        position: "relative"
       }}
       px="20px"
     >
@@ -37,7 +37,7 @@ const HeroBanner = () => {
       </Button>
       <Typography
         fontWeight={600}
-        color="FF2625"
+        color="#FF2625"
         sx={{ opacity: "0.1", display: { lg: "block", xs: "none" } }}
         fontSize="200px"
       >
