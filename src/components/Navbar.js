@@ -15,6 +15,8 @@ const Navbar = () => {
         justifyContent: "none",
       }}
       px="20px"
+      pb='10px'
+      alignItems='center'
     >
       <Link to="/">
         <img
@@ -30,13 +32,14 @@ const Navbar = () => {
             textDecoration: "none",
             color: "#3A1212",
             borderBottom: "3px solid #FF2625",
+            fontWeight:'bold'
           }}
         >
           Home
         </Link>
         <a
           href="#exercices"
-          style={{ textDecoration: "none", color: "#3A1212" }}
+          style={{ textDecoration: "none", color: "#3A1212", fontWeight:'bold' }}
         >
           Exercices
         </a>
